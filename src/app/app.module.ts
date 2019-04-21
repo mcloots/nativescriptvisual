@@ -7,7 +7,7 @@ import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 import { ClassesComponent } from './classes/classes.component';
 import { GesturesComponent } from './gestures/gestures.component';
-import { AnimationsComponent } from './animations/animations.component';
+import { IconfontsComponent } from './iconfonts/iconfonts.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -29,7 +29,7 @@ import { AnimationsComponent } from './animations/animations.component';
         ItemDetailComponent,
         ClassesComponent,
         GesturesComponent,
-        AnimationsComponent
+        IconfontsComponent
     ],
     providers: [],
     schemas: [

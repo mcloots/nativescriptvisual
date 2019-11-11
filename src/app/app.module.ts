@@ -5,6 +5,9 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
+import { ClassesComponent } from './classes/classes.component';
+import { GesturesComponent } from './gestures/gestures.component';
+import { IconfontsComponent } from './iconfonts/iconfonts.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -23,7 +26,10 @@ import { ItemDetailComponent } from "./item/item-detail.component";
     declarations: [
         AppComponent,
         ItemsComponent,
-        ItemDetailComponent
+        ItemDetailComponent,
+        ClassesComponent,
+        GesturesComponent,
+        IconfontsComponent
     ],
     providers: [],
     schemas: [
